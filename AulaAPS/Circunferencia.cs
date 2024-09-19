@@ -4,7 +4,7 @@ namespace AulaAPS
 {
     public class Circunferencia : FormaGeometrica
     {
-        private double raio; 
+        private double raio;
         public double Raio
         {
             get { return raio; }

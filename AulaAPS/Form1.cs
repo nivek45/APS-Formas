@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -102,67 +103,74 @@ namespace AulaAPS
             lblRaio.Visible = txtRaio.Visible = visivel;
         }
 
+        private double ConvertToDouble(string text)
+        {
+            if (string.IsNullOrEmpty(text))
+                return 0;
+
+            CultureInfo culture = new CultureInfo("pt-BR");
+            return double.Parse(text, culture);
+        }
+
+        
         private void btnCriar_Click(object sender, EventArgs e)
         {
-            cmbObjetos.Items.Clear();
+            cmbObjetos.Items.Clear(); 
 
             if (cmbForma.Text.Equals("Quadrado"))
             {
                 FormaGeometrica quadrado = new Quadrado()
                 {
-                    Lado = Convert.ToDouble(txtBase.Text) 
+                    Lado = ConvertToDouble(txtBase.Text) 
                 };
-                cmbObjetos.Items.Add(quadrado); 
+                cmbObjetos.Items.Add(quadrado);
             }
             else if (cmbForma.Text.Equals("Triângulo"))
             {
- 
                 if (cmbTriangulo.Text.Equals("Isósceles"))
                 {
                     FormaGeometrica trianguloIsosceles = new TrianguloIsosceles()
                     {
-                        LadoBase = Convert.ToDouble(txtBase.Text),  
-                        Altura = Convert.ToDouble(txtAltura.Text)  
+                        LadoBase = ConvertToDouble(txtBase.Text),
+                        Altura = ConvertToDouble(txtAltura.Text)
                     };
-                    cmbObjetos.Items.Add(trianguloIsosceles); 
+                    cmbObjetos.Items.Add(trianguloIsosceles);
                 }
                 else if (cmbTriangulo.Text.Equals("Reto"))
                 {
                     FormaGeometrica trianguloReto = new TrianguloReto()
                     {
-                        Base = Convert.ToDouble(txtBase.Text), 
-                        Altura = Convert.ToDouble(txtAltura.Text)   
+                        Base = ConvertToDouble(txtBase.Text),
+                        Altura = ConvertToDouble(txtAltura.Text)
                     };
-                    cmbObjetos.Items.Add(trianguloReto); 
+                    cmbObjetos.Items.Add(trianguloReto);
                 }
                 else if (cmbTriangulo.Text.Equals("Equilátero"))
                 {
                     FormaGeometrica trianguloEquilatero = new TrianguloEquilatero()
                     {
-                        Lado = Convert.ToDouble(txtBase.Text)  
+                        Lado = ConvertToDouble(txtBase.Text)
                     };
-                    cmbObjetos.Items.Add(trianguloEquilatero); 
+                    cmbObjetos.Items.Add(trianguloEquilatero);
                 }
             }
             else if (cmbForma.Text.Equals("Retângulo"))
             {
                 FormaGeometrica retangulo = new Retangulo()
                 {
-                    Base = Convert.ToDouble(txtBase.Text), 
-                    Altura = Convert.ToDouble(txtAltura.Text) 
+                    Base = ConvertToDouble(txtBase.Text),
+                    Altura = ConvertToDouble(txtAltura.Text)
                 };
-                cmbObjetos.Items.Add(retangulo); 
+                cmbObjetos.Items.Add(retangulo);
             }
             else if (cmbForma.Text.Equals("Circunferência"))
             {
                 FormaGeometrica circunferencia = new Circunferencia()
                 {
-                    Raio = Convert.ToDouble(txtRaio.Text) 
+                    Raio = ConvertToDouble(txtRaio.Text) 
                 };
-                cmbObjetos.Items.Add(circunferencia); 
+                cmbObjetos.Items.Add(circunferencia);
             }
-
-
         }
 
 

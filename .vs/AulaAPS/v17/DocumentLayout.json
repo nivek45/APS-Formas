@@ -11,8 +11,8 @@
       "RelativeMoniker": "D:0:0:{4AC4BF34-0B23-4600-8907-5EA1821EDB20}|AulaAPS\\AulaAPS.csproj|solutionrelative:aulaaps\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AC4BF34-0B23-4600-8907-5EA1821EDB20}|AulaAPS\\AulaAPS.csproj|C:\\Users\\kevin\\source\\repos\\AulaAPS\\aulaaps\\triangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AC4BF34-0B23-4600-8907-5EA1821EDB20}|AulaAPS\\AulaAPS.csproj|solutionrelative:aulaaps\\triangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AC4BF34-0B23-4600-8907-5EA1821EDB20}|AulaAPS\\AulaAPS.csproj|C:\\Users\\kevin\\source\\repos\\AulaAPS\\aulaaps\\retangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC4BF34-0B23-4600-8907-5EA1821EDB20}|AulaAPS\\AulaAPS.csproj|solutionrelative:aulaaps\\retangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4AC4BF34-0B23-4600-8907-5EA1821EDB20}|AulaAPS\\AulaAPS.csproj|C:\\Users\\kevin\\source\\repos\\AulaAPS\\aulaaps\\quadrado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,16 +31,16 @@
       "RelativeMoniker": "D:0:0:{4AC4BF34-0B23-4600-8907-5EA1821EDB20}|AulaAPS\\AulaAPS.csproj|solutionrelative:aulaaps\\circunferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4AC4BF34-0B23-4600-8907-5EA1821EDB20}|AulaAPS\\AulaAPS.csproj|c:\\users\\kevin\\source\\repos\\aulaaps\\aulaaps\\trianguloequilatero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC4BF34-0B23-4600-8907-5EA1821EDB20}|AulaAPS\\AulaAPS.csproj|solutionrelative:aulaaps\\trianguloequilatero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4AC4BF34-0B23-4600-8907-5EA1821EDB20}|AulaAPS\\AulaAPS.csproj|C:\\Users\\kevin\\source\\repos\\AulaAPS\\aulaaps\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AC4BF34-0B23-4600-8907-5EA1821EDB20}|AulaAPS\\AulaAPS.csproj|solutionrelative:aulaaps\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AC4BF34-0B23-4600-8907-5EA1821EDB20}|AulaAPS\\AulaAPS.csproj|C:\\Users\\kevin\\source\\repos\\AulaAPS\\aulaaps\\retangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AC4BF34-0B23-4600-8907-5EA1821EDB20}|AulaAPS\\AulaAPS.csproj|solutionrelative:aulaaps\\retangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AC4BF34-0B23-4600-8907-5EA1821EDB20}|AulaAPS\\AulaAPS.csproj|c:\\users\\kevin\\source\\repos\\aulaaps\\aulaaps\\trianguloequilatero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AC4BF34-0B23-4600-8907-5EA1821EDB20}|AulaAPS\\AulaAPS.csproj|solutionrelative:aulaaps\\trianguloequilatero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AC4BF34-0B23-4600-8907-5EA1821EDB20}|AulaAPS\\AulaAPS.csproj|C:\\Users\\kevin\\source\\repos\\AulaAPS\\aulaaps\\triangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC4BF34-0B23-4600-8907-5EA1821EDB20}|AulaAPS\\AulaAPS.csproj|solutionrelative:aulaaps\\triangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,6 +53,20 @@
           "SelectedChildIndex": 8,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Triangulo.cs",
+              "DocumentMoniker": "C:\\Users\\kevin\\source\\repos\\AulaAPS\\AulaAPS\\Triangulo.cs",
+              "RelativeDocumentMoniker": "AulaAPS\\Triangulo.cs",
+              "ToolTip": "C:\\Users\\kevin\\source\\repos\\AulaAPS\\AulaAPS\\Triangulo.cs",
+              "RelativeToolTip": "AulaAPS\\Triangulo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T16:50:35.816Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
@@ -64,14 +78,14 @@
               "RelativeDocumentMoniker": "AulaAPS\\Circunferencia.cs",
               "ToolTip": "C:\\Users\\kevin\\source\\repos\\AulaAPS\\AulaAPS\\Circunferencia.cs",
               "RelativeToolTip": "AulaAPS\\Circunferencia.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T00:13:24.211Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "TrianguloEquilatero.cs",
               "DocumentMoniker": "C:\\Users\\kevin\\source\\repos\\AulaAPS\\AulaAPS\\TrianguloEquilatero.cs",
               "RelativeDocumentMoniker": "AulaAPS\\TrianguloEquilatero.cs",
@@ -103,7 +117,7 @@
               "RelativeDocumentMoniker": "AulaAPS\\TrianguloReto.cs",
               "ToolTip": "C:\\Users\\kevin\\source\\repos\\AulaAPS\\AulaAPS\\TrianguloReto.cs",
               "RelativeToolTip": "AulaAPS\\TrianguloReto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T16:50:53.84Z",
               "EditorCaption": ""
@@ -124,19 +138,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Triangulo.cs",
-              "DocumentMoniker": "C:\\Users\\kevin\\source\\repos\\AulaAPS\\AulaAPS\\Triangulo.cs",
-              "RelativeDocumentMoniker": "AulaAPS\\Triangulo.cs",
-              "ToolTip": "C:\\Users\\kevin\\source\\repos\\AulaAPS\\AulaAPS\\Triangulo.cs",
-              "RelativeToolTip": "AulaAPS\\Triangulo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T16:50:35.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Retangulo.cs",
               "DocumentMoniker": "C:\\Users\\kevin\\source\\repos\\AulaAPS\\AulaAPS\\Retangulo.cs",
               "RelativeDocumentMoniker": "AulaAPS\\Retangulo.cs",
@@ -153,9 +154,9 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\kevin\\source\\repos\\AulaAPS\\AulaAPS\\Form1.cs",
               "RelativeDocumentMoniker": "AulaAPS\\Form1.cs",
-              "ToolTip": "C:\\Users\\kevin\\source\\repos\\AulaAPS\\AulaAPS\\Form1.cs",
-              "RelativeToolTip": "AulaAPS\\Form1.cs",
-              "ViewState": "AQIAAMAAAAAAAAAAAAD4v9sAAAAgAAAA",
+              "ToolTip": "C:\\Users\\kevin\\source\\repos\\AulaAPS\\AulaAPS\\Form1.cs*",
+              "RelativeToolTip": "AulaAPS\\Form1.cs*",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAQwK4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T16:44:29.974Z",
               "EditorCaption": ""
@@ -166,15 +167,15 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\kevin\\source\\repos\\AulaAPS\\AulaAPS\\Form1.cs",
               "RelativeDocumentMoniker": "AulaAPS\\Form1.cs",
-              "ToolTip": "C:\\Users\\kevin\\source\\repos\\AulaAPS\\AulaAPS\\Form1.cs [Design]",
-              "RelativeToolTip": "AulaAPS\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\kevin\\source\\repos\\AulaAPS\\AulaAPS\\Form1.cs [Design]*",
+              "RelativeToolTip": "AulaAPS\\Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T16:44:23.698Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kevin\\source\\repos\\AulaAPS\\AulaAPS\\Program.cs",
               "RelativeDocumentMoniker": "AulaAPS\\Program.cs",
